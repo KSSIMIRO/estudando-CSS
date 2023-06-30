@@ -1,0 +1,52 @@
+.red1,
+.red2,
+.red3 {
+    width: 200px;
+    height: 200px;
+}
+
+.red1 {
+    background-color: red;
+}
+
+.red2 {
+    background-color: #ff0000;
+}
+
+.red3 {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+/* 
+Unidades de medida::
+-Absolutas: px, cm, pt, etc;
+-relativas: vh (viewport height),
+            vw (viewport width),
+            em (baseado no pai),
+            rem (baseado no elemento raiz),
+            % (baseado no pai)
+*/
+
+.qua1 {
+    width: 200px;
+    height: 100px;
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.qua2 {
+    width: 60vw;
+    /* 60%da largura disponivel */
+    height: 50vh;
+    /* 50$ da altura */
+    background-color: orange;
+}
+
+/* % = em relação ao elemento pai  */
+.qua3 {
+    background-color: tomato;
+    width: 50%;
+    height: 40%;
+}
+
+/* % -> depende das dimensões definidas no elemento pai */
