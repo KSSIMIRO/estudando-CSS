@@ -49,3 +49,24 @@
     width: 200px;
     padding: 8px;
 }
+
+.container-2 {
+    background-color: chocolate;
+    height: 250px;
+    display: flex;
+}
+
+.coluna-1 {
+    background-color: tan;
+    flex: 1;
+}
+
+.coluna-2 {
+    background-color: aqua;
+    flex: 2; /* ocupa uma porção do espaço disponivel */
+}
+
+.coluna-3 {
+    background-color: tomato;
+    flex: 1; /* ocupa uma porção do espaço disponivel */
+}
