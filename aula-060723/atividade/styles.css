@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1b1e23;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.container-1 {
+    height: 600;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between ;
+    margin: 16px;
+    padding: 16px;
+}
+
+.foto {
+    width: 200px;
+}
+
+.arena {
+    width: 500px;
+    display: flex;
+    background-color: #1b1e23;
+    color: white;
+    margin: 8px;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.ai {
+    width: 500px;
+    display: flex;
+    background-color: #1b1e23;
+    color: white;
+    margin: 8px;
+    align-items: center;
+    gap: 8px;
+}
+
+.rio {
+    width: 500px;
+    display: flex;
+    background-color: #1b1e23;
+    color: white;
+    margin: 8px;
+    align-items: center;
+    gap: 8px;
+}
+
+.arena2 {
+    width: 500px;
+    display: flex;
+    background-color: #1b1e23;
+    color: white;
+    margin: 8px;
+    align-items: center;
+    gap: 8px;
+}
+
+.ai2 {
+    width: 500px;
+    display: flex;
+    background-color: #1b1e23;
+    color: white;
+    margin: 8px;
+    align-items: center;
+    gap: 8px;
+}
+
+.rio2 {
+    width: 500px;
+    display: flex;
+    background-color: #1b1e23;
+    color: white;
+    margin: 8px;
+    align-items: center;
+    gap: 8px;
+}
+
+@media screen and (max-width: 600px) {
+    .container-1 {
+        flex-direction: column;
+    }
+    .foto {
+        width: 100vw;
+    }
+    .arena {
+        width: 100vw;
+        display: block;
+        background-color: #1b1e23;
+        margin: 8px;
+        align-items: center;
+        gap: 8px;
+        color: white
+    }
+    
+    .ai {
+        width: 100vw;
+        display: block;
+        background-color: #1b1e23;
+        margin: 8px;
+        align-items: center;
+        gap: 8px;
+        color: white
+    }
+    
+    .rio {
+        width: 100vw;
+        display: block;
+        background-color: #1b1e23;
+        margin: 8px;
+        align-items: center;
+        gap: 8px;
+        color: white
+    }
+    
+    .arena2 {
+        width: 100vw;
+        display: block;
+        background-color: #1b1e23;
+        margin: 8px;
+        align-items: center;
+        gap: 8px;
+        color: white
+    }
+    
+    .ai2 {
+        width: 100vw;
+        display: block;
+        background-color: #1b1e23;
+        margin: 8px;
+        align-items: center;
+        gap: 8px;
+        color: white
+    }
+    
+    .rio2 {
+        width: 100vw;
+        display: block;
+        background-color: #1b1e23;
+        margin: 8px;
+        align-items: center;
+        gap: 8px;
+        color: white
+    }
+}
